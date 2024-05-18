@@ -5,6 +5,7 @@
     <packageId>Owlchemist.PerspectivePaths</packageId>
     <supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<modVersion>1.0</modVersion>
     <description>A tile of terrain will either have soft or hard edges depending on its definition. This mod allows the user to override this behavior on a per-tile basis.</description>

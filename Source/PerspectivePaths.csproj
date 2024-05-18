@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<Product>Perspective Paths</Product>
 		<AssemblyVersion>1.0</AssemblyVersion>
-		<Version>1.4</Version>
+		<Version>1.5</Version>
 		<Copyright>$([System.DateTime]::Now.ToString('yyyy'))</Copyright>
 		<Company>Owlchemist</Company>
 		<TargetFramework>net48</TargetFramework>

@@ -61,7 +61,7 @@ namespace PerspectivePaths
         public override void DesignateSingleCell(IntVec3 c)
         {
             selectedArea[c] = false;
-            Find.CurrentMap.mapDrawer.SectionAt(c).dirtyFlags = MapMeshFlag.Terrain;
+            Find.CurrentMap.mapDrawer.SectionAt(c).dirtyFlags = MapMeshFlagDefOf.Terrain;
         }
         public override AcceptanceReport CanDesignateCell(IntVec3 c)
         {
@@ -80,7 +80,7 @@ namespace PerspectivePaths
         public override void DesignateSingleCell(IntVec3 c)
         {
             selectedArea[c] = true;
-            Find.CurrentMap.mapDrawer.SectionAt(c).dirtyFlags = MapMeshFlag.Terrain;
+            Find.CurrentMap.mapDrawer.SectionAt(c).dirtyFlags = MapMeshFlagDefOf.Terrain;
         }
         public override AcceptanceReport CanDesignateCell(IntVec3 c)
         {
